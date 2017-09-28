@@ -1,0 +1,12 @@
+{
+  "name": "Twitch Extension Remover",
+  "description": "Remove Twitch Extension Overlays",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "https://www.twitch.tv/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
